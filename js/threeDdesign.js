@@ -98,3 +98,5 @@ function clearFields() {
     document.getElementById('subject').value = "";
     document.getElementById('message').value = "";
 }
+
+document.getElementById('toTheTop').html.scrollBehavior = 'smooth';

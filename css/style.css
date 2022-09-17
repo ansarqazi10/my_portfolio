@@ -41,7 +41,6 @@
   box-sizing: border-box; }
 
 html {
-  scroll-behavior: smooth;
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -9796,16 +9795,17 @@ textarea.form-control {
 
 #footer table tr td {
   color: black;
+  width: 25px;
 }
 
 #footer table tr {
   margin: 0;
+  padding: 0;
 }
 
 #footer table tr td a {
   color: black;
   margin: 0;
-  padding: 5px;
 }
 
 .icon, .icon:hover {
@@ -9850,3 +9850,7 @@ textarea.form-control {
   background-color: pink;
   color: green;
 }
+
+/* #toTheTop {
+  scroll-behavior: smooth;
+} */
