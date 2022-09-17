@@ -69,7 +69,7 @@ function sendMessage() {
     emailjs.send('service_0wmihqe', 'template_pujthf8', templateParams, '6HiTom3zKGSssaHTR')
         .then(function (response) {
             console.log('SUCCESS!', response.status, response.text);
-            clearField();
+            clearFields();
             swal({title: "Thanks for contacting.", text: "Your email has been sent. You will shortly receive a confirmatory email.", icon: "success", button: "Okay",});
         }, function (error) {
             console.log('FAILED...', error);
@@ -92,16 +92,9 @@ const validate = (email) => {
     }
 }
 
-function clearField() {
+function clearFields() {
     document.getElementById('from_name').value = "";
     document.getElementById('email').value = "";
     document.getElementById('subject').value = "";
     document.getElementById('message').value = "";
 }
-
-function changeHeight() {
-    document.getElementById('tobedone').style.height = window.innerHeight + 'px';
-    document.getElementById('asdf').style.height = window.innerHeight + 'px';
-}
-
-changeHeight();

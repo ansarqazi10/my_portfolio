@@ -41,6 +41,7 @@
   box-sizing: border-box; }
 
 html {
+  scroll-behavior: smooth;
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -9767,16 +9768,11 @@ textarea.form-control {
     stroke-dashoffset: -136px; } }
 
 .skillsBox { height: 100% }
+
 .newUL { text-align: center; margin-left: 15% }
 .newUL li { text-align: left }
 
-canvas {
-  display: block;
-  vertical-align: bottom;
-}
-
 #tsparticles, .tsparticles {
-  /* position: absolute; */
   width: 100%;
   height: 100%;
   background-color: black;
@@ -9787,10 +9783,10 @@ canvas {
 }
 
 #footer {
-  margin: -38% 0 0 25%;
+  margin: -37% 0 0 18%;
   padding: 3%;
   border-radius: 10px;
-  width: 50%;
+  width: 65%;
   background-color: #b1b493;
 }
 
@@ -9800,12 +9796,16 @@ canvas {
 
 #footer table tr td {
   color: black;
-  padding: 10px;
+}
+
+#footer table tr {
+  margin: 0;
 }
 
 #footer table tr td a {
   color: black;
-  padding: 10px;
+  margin: 0;
+  padding: 5px;
 }
 
 .icon, .icon:hover {
@@ -9826,12 +9826,8 @@ canvas {
   padding: 10px;
 }
 
-#home-section {
-  height: 100%;
-}
-
 .toTheTop, .toTheTop:hover {
-  margin-right: 2%;
+  margin: -3% 2% 0 0;
   float: right;
   position: sticky;
   height: 50px;
@@ -9848,4 +9844,9 @@ canvas {
   color: black;
   text-align: center;
   vertical-align: middle;
+}
+
+.skillsBox:hover {
+  background-color: pink;
+  color: green;
 }
