@@ -9782,10 +9782,10 @@ textarea.form-control {
 }
 
 #footer {
-  margin: -37% 0 0 18%;
-  padding: 3%;
+  margin: -37% 0 0 13%;
+  padding: 3% 3% 0 3%;
   border-radius: 10px;
-  width: 65%;
+  width: 75%;
   background-color: #b1b493;
 }
 
@@ -9793,14 +9793,23 @@ textarea.form-control {
   color: black;
 }
 
-#footer table tr td {
-  color: black;
-  width: 25px;
-}
-
 #footer table tr {
   margin: 0;
   padding: 0;
+}
+
+#footer table tr td {
+  border: none;
+  color: black;
+  width: 1px;
+}
+
+.td {
+  width: 250px;
+}
+
+@media screen and (max-width: 480px) {
+  
 }
 
 #footer table tr td a {
@@ -9823,7 +9832,7 @@ textarea.form-control {
 }
 
 #footer table tr td span {
-  padding: 10px;
+  padding: 5px;
 }
 
 .toTheTop, .toTheTop:hover {
@@ -9845,3 +9854,12 @@ textarea.form-control {
   text-align: center;
   vertical-align: middle;
 }
+
+.tag {
+    margin-left: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: black;
+    color: #b1b493;
+}   
