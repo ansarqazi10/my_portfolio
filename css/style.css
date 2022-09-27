@@ -9766,14 +9766,12 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
-.skillsBox { height: 100% }
 
+.skillsBox { height: 100% }
 .newUL { text-align: center; margin-left: 15% }
 .newUL li { text-align: left }
 
-#tsparticles, .tsparticles {
-  width: 100%;
-  height: 100%;
+#tsparticles {
   background-color: black;
   background-image: url("");
   background-repeat: no-repeat;
@@ -9804,12 +9802,139 @@ textarea.form-control {
   width: 1px;
 }
 
-.td {
-  width: 250px;
+@media screen and (max-width: 390px) {
+  #footer {
+    margin: -250% 0 0 7%;
+    padding: 1% 1% 0 1%;
+    border-radius: 10px;
+    width: 85%;
+    background-color: #b1b493;
+  }
+  #footer table tr {
+    width: 100%;
+  }
+  #tsparticles {
+    height: 1000px !important;
+  }
+  #toTheTop {
+    margin: 3% 2% 0 0;
+  }
+  #footer h1 {
+    margin-left: 3%;
+  }
+  #ksimon {
+    display: none;
+  }
 }
 
-@media screen and (max-width: 480px) {
-  
+@media screen and (max-width: 470px) {
+  #footer {
+    margin: -220% 0 0 7%;
+    padding: 1% 1% 0 1%;
+    border-radius: 10px;
+    width: 85%;
+    background-color: #b1b493;
+  }
+  #footer table tr {
+    width: 100%;
+  }
+  #tsparticles {
+    height: 1100px !important;
+  }
+  #toTheTop {
+    margin: 3% 2% 0 0;
+  }
+  #footer h1 {
+    margin-left: 3%;
+  }
+  #ksimon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  #footer {
+    margin: -160% 0 0 7%;
+    padding: 1% 1% 0 1%;
+    border-radius: 10px;
+    width: 85%;
+    background-color: #b1b493;
+  }
+  #footer table tr {
+    width: 100%;
+  }
+  #tsparticles {
+    height: 1200px !important;
+  }
+  #toTheTop {
+    margin: 3% 2% 0 0;
+  }
+  #footer h1 {
+    margin-left: 3%;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  #footer {
+    margin: -56% 0 0 7%;
+    padding: 1% 1% 0 1%;
+    border-radius: 10px;
+    width: 85%;
+    background-color: #b1b493;
+  }
+  #footer table tr {
+    width: 100%;
+  }
+  #tsparticles {
+    height: 600px !important;  
+  }
+  #toTheTop {
+    margin: 1% 2% 0 0;
+  }
+  #footer h1 {
+    margin-left: 3%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  #footer {
+    margin: -45% 0 0 7%;
+    padding: 1% 1% 0 1%;
+    border-radius: 10px;
+    width: 85%;
+    background-color: #b1b493;
+  }
+  #footer table tr {
+    width: 100%;
+  }
+  #tsparticles {
+    width: 100%;
+    height: 100%;
+  }
+  #toTheTop {
+    margin: 1% 2% 0 0;
+  }
+  #footer h1 {
+    margin-left: 3%;
+  }
+}
+
+@media screen and (min-width: 1251px) {
+  #footer {
+    margin: -37% 0 0 13%;
+    padding: 3% 3% 0 3%;
+    border-radius: 10px;
+    width: 75%;
+    background-color: #b1b493;
+  }
+  #tsparticles {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.tableParent {
+  width: 100%;
 }
 
 #footer table tr td a {
